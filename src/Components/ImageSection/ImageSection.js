@@ -53,7 +53,6 @@ class ImageSection extends React.Component {
             });
         } else {
             if (scoreState > total) {
-                alert('this happened');
                 this.setState({
                     totalScore: this.state.totalScore = this.state.score
                 });
