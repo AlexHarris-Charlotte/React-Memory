@@ -4,10 +4,10 @@ import './ImageSection.css';
 class ImageSection extends React.Component {
     state = {
         images: [
-            "./images/Brow.jpg","/images/Butler.jpg", "/images/lebron.jpg",
-            "/images/Harden.jpg", "/images/KD.jpg", "/images/KP.jpg",
-            "/images/Kyle.jpg", "/images/Kyrie.jpg", "/images/Embiid.jpg",
-            "/images/wade.jpg", "/images/Russell.jpg", "/images/PG.jpg"
+            "./images/Brow.jpg","./images/Butler.jpg", "./images/lebron.jpg",
+            "./images/Harden.jpg", "./images/KD.jpg", "./images/KP.jpg",
+            "./images/Kyle.jpg", "./images/Kyrie.jpg", "./images/Embiid.jpg",
+            "./images/wade.jpg", "./images/Russell.jpg", "./images/PG.jpg"
         ],
 
         clickedImages: [],
